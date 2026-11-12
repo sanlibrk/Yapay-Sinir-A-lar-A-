@@ -1,0 +1,14 @@
+Model,Terim,Katsayi
+Basit doğrusal regresyon,sabit,-131.87377836094223
+Basit doğrusal regresyon,bmi,10.762790900604497
+Çoklu doğrusal regresyon,sabit,-341.37823633350627
+Çoklu doğrusal regresyon,age,0.13768781500241511
+Çoklu doğrusal regresyon,sex,-23.064467722824844
+Çoklu doğrusal regresyon,bmi,5.846362651490281
+Çoklu doğrusal regresyon,bp,1.1970925183253562
+Çoklu doğrusal regresyon,s1,-1.2816847398758848
+Çoklu doğrusal regresyon,s2,0.8111520257425818
+Çoklu doğrusal regresyon,s3,0.6016531873240522
+Çoklu doğrusal regresyon,s4,10.159539165455605
+Çoklu doğrusal regresyon,s5,67.1089623968286
+Çoklu doğrusal regresyon,s6,0.20159906669848243

@@ -1,0 +1,42 @@
+{
+  "python": "3.12.14",
+  "libraries": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "scikit-learn": "1.8.0"
+  },
+  "dataset": {
+    "loader": "sklearn.datasets.load_diabetes",
+    "as_frame": true,
+    "scaled": false,
+    "rows": 442,
+    "features": 10,
+    "target": "disease progression one year after baseline"
+  },
+  "split": {
+    "random_state": 42,
+    "test_size": 0.2,
+    "train_rows": 353,
+    "test_rows": 89
+  },
+  "models": {
+    "estimator": "sklearn.linear_model.LinearRegression",
+    "fit_intercept": true,
+    "simple_features": [
+      "bmi"
+    ],
+    "multiple_features": [
+      "age",
+      "sex",
+      "bmi",
+      "bp",
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ]
+  }
+}
